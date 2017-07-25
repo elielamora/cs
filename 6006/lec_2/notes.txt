@@ -1,0 +1,16 @@
+#lec 2
+
+Models of Computation:
+        - RAM (Random Access Machine)
+
+        - Pointer Machine
+
+
+Examples of Algorithms in Python
+
+Document Distance:
+        - like dot product
+
+        a * b = |a||b|*cos(t)
+
+        cos(t) = (a*b)/(|a||b|)

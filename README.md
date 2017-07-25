@@ -9,6 +9,9 @@ A repo with a bunch of code and notes pertaining to computer science
 * 6.046 - Intermediate Algorithms
 * 6.851 - Advanced Data Structures
 
+### Lessons from CLRS
+* clrs - Introduction to Algorithms
+
 Each course is in a directory.
 Each directory is divded into directories labled `lec + {lecture-number}`
 For each lecture there is a `notes.txt` or `.md` with personal notes taken during the lecture

@@ -1,0 +1,48 @@
+# lec 3
+
+by Eliel Amora
+
+##Heaps, HeapSort, and Priority Queues
+
+        Queue: is an ADT abstract data type
+        Has Methods:
+                - Enqueue(Q, i)
+                - Dequeue(Q)
+                -
+
+        Heap is a partially complete binary tree structure
+        based on an array
+
+        A
+        index   0 1 2 3 4 5 6 7 8 9
+        value   8 2 7 1 3 4 6 5 9 0
+
+
+        => Make Max Heap
+
+                                9
+                         8             7
+                    6        4    5         3
+                 1    2
+
+                 Parent is always larger than children
+
+        - height of tree of heap has height lg(n) in ex height 4
+
+        tree where it satisfies max heap prop.
+        Key of node is >= key of child nodes (left and right)
+
+
+        Heap as ADT: (Max Heap in this case)
+                - BuildHeap (A)                 O(n)
+                - MaxHeapify(A, i)              O(lg(n))
+                - ExtractMax(A)                 O(1)
+                - Increase Key(A, i, s)         O(lg(n))
+                - Parent(i)                     O(1)
+                - Left(i)                       O(1)
+                - Right(i)                      O(1)
+
+                - HeapSort(A)                   O(nlgn)
+
+        HeapSort sorts an array that is a heap and
+        the max heap property is satisfied

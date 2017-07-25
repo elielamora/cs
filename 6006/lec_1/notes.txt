@@ -1,0 +1,33 @@
+# Lec 1
+## Intro to Algorithms 6.006
+8 modules:
+        - Alogorithmic Thinking
+        - Sorting and Trees
+        - Hashing
+        - Numerics
+        - Graphs
+        - Shortest Paths
+        - Dynamic Programming
+        - Advanced Topics
+
+### Peak Finding Problem (1d):
+>        1       2       3       4       5       ...     n
+>        6       x       x       x       x       x       x
+
+Problem:
+
+- find *a* peak if it exists in the array
+ A from 1 to n such that
+`a[x-1] <= a[x] >= a[x+1]`
+
+Solutions:
+- Compare all elements O(n)
+- Divide and Conquer O(lg(n))
+        - T(n) = T(n/2) + O(1) => O(lg(n))
+
+###Peak Finding Problem (2d):
+- greater than surrounding squares
+
+Solutions:
+        - Gready Ascent O(mn) -> O(n^2)
+        - Divide and Conquer

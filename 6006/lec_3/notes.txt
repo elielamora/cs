@@ -1,0 +1,26 @@
+
+
+
+Sorting:
+        - 2 examples of sorting algorithms:
+                = insertion sort 
+                = merge sort
+                
+        - Sorting used in compression, comp. graphics ect.
+        - Pre req for binary search
+Insertion sort -> O(n^2)
+
+Merge sort -> O(nlgn) 
+        -> O(n) aux. space
+        -> O(1) aux. space exists but large const. facts.
+
+Recurance Solving Using Recursion Trees:
+        - T(n) = 2T(n/2) + O(n)
+                        cn                      cn
+                  cn/2      cn/2                cn
+              cn/4 cn/4   cn/4 cn/4             cn
+        
+        ... ... ... .. .. . .. .. . ... ..     cn * lgn levels
+        
+        
+        => O(nlgn) complexity
